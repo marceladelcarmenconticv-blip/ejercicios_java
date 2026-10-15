@@ -19,5 +19,10 @@ public class Main {
         promedio = (nota1 + nota2 + nota3 + nota4) / 4;
         System.out.println("NOTA PROMEDIO ES:" + promedio);
 
+        if (promedio < 5 ){
+            System.out.println("DESAPROBADO");
+        }else {
+            System.out.println("aprobado");
+        }
     }
 }
